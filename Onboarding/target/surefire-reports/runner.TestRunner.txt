@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.634 s <<< FAILURE! -- in runner.TestRunner
+runner.TestRunner.runScenario["Verify the Delete api for employees", "Delete an employee record from the API"](1) -- Time elapsed: 1.356 s <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at stepDefinitions.Onboarding.iDeleteToReceiveTheRecordWithStatus(Onboarding.java:197)
+	at ✽.I delete to receive the record with status(file:///C:/Users/ZukiswaSibutha/Intellij-Workspace/Onboarding/src/test/resources/features/DeleteEmployee.feature:6)
+

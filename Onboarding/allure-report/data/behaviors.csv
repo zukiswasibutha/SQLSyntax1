@@ -1,0 +1,5 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Put data in an employees record from the API","1","0","Verify the Put api for employees","0"
+"0","","0","Get all employees records from the API","1","0","Verify the Get api for employees","0"
+"0","","0","Post an employee record from the API","1","0","Verify the Post api for employees","0"
+"0","","1","Delete an employee record from the API","0","0","Verify the Delete api for employees","0"

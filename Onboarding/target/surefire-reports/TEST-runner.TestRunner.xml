@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="4.634" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ZukiswaSibutha\Intellij-Workspace\Onboarding\target\test-classes;C:\Users\ZukiswaSibutha\Intellij-Workspace\Onboarding\target\classes;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ZukiswaSibutha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.4\webdrivermanager-6.3.4.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java\3.7.1\docker-java-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-core\3.7.1\docker-java-core-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-api\3.7.1\docker-java-api-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.7.1\docker-java-transport-httpclient5-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-transport\3.7.1\docker-java-transport-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\net\java\dev\jna\jna\5.18.1\jna-5.18.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.6\httpclient5-5.6.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.4\httpcore5-5.4.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.4\httpcore5-h2-5.4.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.35.2\allure-cucumber7-jvm-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-java-commons\2.35.2\allure-java-commons-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-model\2.35.2\allure-model-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-testng\2.35.2\allure-testng-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-test-filter\2.35.2\allure-test-filter-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\ZukiswaSibutha\AppData\Local\Temp\surefire8235258576170022529\surefirebooter-20260623103111986_3.jar C:\Users\ZukiswaSibutha\AppData\Local\Temp\surefire8235258576170022529 2026-06-23T10-31-11_877-jvmRun1 surefire-20260623103111986_1tmp surefire_0-20260623103111986_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ZukiswaSibutha\Intellij-Workspace\Onboarding\target\test-classes;C:\Users\ZukiswaSibutha\Intellij-Workspace\Onboarding\target\classes;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ZukiswaSibutha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.44.0\selenium-java-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.44.0\selenium-api-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.44.0\selenium-chrome-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.44.0\selenium-chromium-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.44.0\selenium-json-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.44.0\selenium-manager-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.44.0\selenium-devtools-v146-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.44.0\selenium-devtools-v147-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.44.0\selenium-devtools-v148-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.44.0\selenium-edge-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.44.0\selenium-firefox-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.44.0\selenium-http-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.44.0\selenium-ie-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.44.0\selenium-remote-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-api\1.62.0\opentelemetry-api-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-context\1.62.0\opentelemetry-context-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-common\1.62.0\opentelemetry-common-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.62.0\opentelemetry-exporter-logging-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.62.0\opentelemetry-sdk-common-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.62.0\opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.62.0\opentelemetry-sdk-extension-autoconfigure-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.62.0\opentelemetry-sdk-trace-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.62.0\opentelemetry-sdk-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.62.0\opentelemetry-sdk-metrics-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.62.0\opentelemetry-sdk-logs-1.62.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.44.0\selenium-os-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.44.0\selenium-safari-driver-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.44.0\selenium-support-4.44.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.4\webdrivermanager-6.3.4.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java\3.7.1\docker-java-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-core\3.7.1\docker-java-core-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-api\3.7.1\docker-java-api-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.7.1\docker-java-transport-httpclient5-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\com\github\docker-java\docker-java-transport\3.7.1\docker-java-transport-3.7.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\net\java\dev\jna\jna\5.18.1\jna-5.18.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.6\httpclient5-5.6.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.4\httpcore5-5.4.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.4\httpcore5-h2-5.4.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.35.2\allure-cucumber7-jvm-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-java-commons\2.35.2\allure-java-commons-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-model\2.35.2\allure-model-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-testng\2.35.2\allure-testng-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\qameta\allure\allure-test-filter\2.35.2\allure-test-filter-2.35.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ZukiswaSibutha\.m2\repository\io\cucumber\cucumber-testng\7.34.3\cucumber-testng-7.34.3.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ZukiswaSibutha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ZukiswaSibutha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ZukiswaSibutha\Intellij-Workspace\Onboarding"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ZukiswaSibutha\AppData\Local\Temp\surefire8235258576170022529\surefirebooter-20260623103111986_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="ZukiswaSibutha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ZukiswaSibutha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ZUKISW~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="C:\Users\ZukiswaSibutha\Intellij-Workspace\Onboarding"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\BackupClient\CommandLineTool\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files\BackupClient\PyShell\bin\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\nodejs\;C:\ffmpeg\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\ZukiswaSibutha\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\Users\ZukiswaSibutha\AppData\Local\Microsoft\WindowsApps;C:\Users\ZukiswaSibutha\AppData\Local\GitHubDesktop\bin;C:\Users\ZukiswaSibutha\AppData\Roaming\npm;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\BackupClient\CommandLineTool\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files\BackupClient\PyShell\bin\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\nodejs\;C:\ffmpeg\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\C:\Users\ZukiswaSibutha\AppData\Local\Android\Sdk\build-tools\36.1.0;C:\Users\ZukiswaSibutha\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\ZukiswaSibutha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ZukiswaSibutha\flutter\bin;C:\Program Files\Java\jdk-24\bin;C:\Users\ZukiswaSibutha\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify the Delete api for employees&quot;, &quot;Delete an employee record from the API&quot;](1)" classname="runner.TestRunner" time="1.356">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at stepDefinitions.Onboarding.iDeleteToReceiveTheRecordWithStatus(Onboarding.java:197)
+	at ✽.I delete to receive the record with status(file:///C:/Users/ZukiswaSibutha/Intellij-Workspace/Onboarding/src/test/resources/features/DeleteEmployee.feature:6)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Verify the Delete api for employees       # src/test/resources/features/DeleteEmployee.feature:3
+  ✔ Given I retrieve the employees records entity   # stepDefinitions.Onboarding.i_retrieve_the_employees_records_entity()
+
+See the response body
+  ✔ When I delete an individual employee record     # stepDefinitions.Onboarding.iDeleteAnIndividualEmployeeRecord()
+  ✘ Then I delete to receive the record with status # stepDefinitions.Onboarding.iDeleteToReceiveTheRecordWithStatus()
+        java.lang.AssertionError: expected [200] but found [401]
+        	at org.testng.Assert.fail(Assert.java:111)
+        	at org.testng.Assert.failNotEquals(Assert.java:1590)
+        	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+        	at org.testng.Assert.assertEquals(Assert.java:132)
+        	at org.testng.Assert.assertEquals(Assert.java:1431)
+        	at org.testng.Assert.assertEquals(Assert.java:1395)
+        	at org.testng.Assert.assertEquals(Assert.java:1441)
+        	at stepDefinitions.Onboarding.iDeleteToReceiveTheRecordWithStatus(Onboarding.java:197)
+        	at ✽.I delete to receive the record with status(file:///C:/Users/ZukiswaSibutha/Intellij-Workspace/Onboarding/src/test/resources/features/DeleteEmployee.feature:6)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify the Post api for employees&quot;, &quot;Post an employee record from the API&quot;](2)" classname="runner.TestRunner" time="1.092">
+    <system-out><![CDATA[
+Scenario: Verify the Post api for employees               # src/test/resources/features/PostEmployee.feature:3
+  ✔ Given I retrieve the employees records entity         # stepDefinitions.Onboarding.i_retrieve_the_employees_records_entity()
+  ✔ When I add an individual employee record              # stepDefinitions.Onboarding.iAddAnIndividualEmployeeRecord()
+See the response body
+{"isSuccess":true,"results":null,"gotoUrl":null,"clientExecuteFunctionOnSuccess":null,"clientExecuteFunctionOnFailure":null,"clientMessage":"Successfully updated profile step 7Input ","outputParameters":null}
+Response Code: 200
+  ✔ Then I check whether I receive the record with status # stepDefinitions.Onboarding.iCheckWhetherIReceiveTheRecordWithStatus()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify the Get api for employees&quot;, &quot;Get all employees records from the API&quot;](3)" classname="runner.TestRunner" time="0.516">
+    <system-out><![CDATA[
+Scenario: Verify the Get api for employees                # src/test/resources/features/RetriveEmployee.feature:3
+  ✔ Given I retrieve the employees records entity         # stepDefinitions.Onboarding.i_retrieve_the_employees_records_entity()
+  ✔ When I request for an individual employee record      # stepDefinitions.Onboarding.i_request_for_an_individual_employee_record()
+  ✔ When I request for a wrong individual employee record # stepDefinitions.Onboarding.iRequestForAWrongIndividualEmployeeRecord()
+See the response body
+{"isSuccess":false,"results":null,"gotoUrl":null,"clientExecuteFunctionOnSuccess":null,"clientExecuteFunctionOnFailure":null,"clientMessage":"System.Exception: Employee does not exist.\r\n   at Ezra360.Erecruit.Employee.ExecuteRequests.GetEmployeeDetails.ExecutePlugin(PluginExecutionContext context)","outputParameters":null}
+Response Code: 200
+  ✔ Then I receive the record with status                 # stepDefinitions.Onboarding.i_receive_the_record_with_status()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify the Put api for employees&quot;, &quot;Put data in an employees record from the API&quot;](4)" classname="runner.TestRunner" time="0.811">
+    <system-out><![CDATA[
+Scenario: Verify the Put api for employees             # src/test/resources/features/UpdateEmployee.feature:3
+  ✔ Given I retrieve the employees records entity      # stepDefinitions.Onboarding.i_retrieve_the_employees_records_entity()
+{
+    "isSuccess": true,
+    "results": null,
+    "gotoUrl": null,
+    "clientExecuteFunctionOnSuccess": null,
+    "clientExecuteFunctionOnFailure": null,
+    "clientMessage": "Successfully retrieved profile step 7",
+    "outputParameters": {
+        "details": [
+            {
+                "name": "New.pdf",
+                "documentType": "ID",
+                "documentTypeId": 1105,
+                "employeeDocLibId": "709466fa-0413-4cb4-a10e-d6895dcc398c",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=709466fa-0413-4cb4-a10e-d6895dcc398c&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            },
+            {
+                "name": "d33656ff-a816-4365-98a2-d4364ffe462a.pdf",
+                "documentType": "Highest Qualification",
+                "documentTypeId": 1106,
+                "employeeDocLibId": "6ad47c29-5879-4901-8ef6-9b16c95034ea",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=6ad47c29-5879-4901-8ef6-9b16c95034ea&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            },
+            {
+                "name": "1000111512.jpg",
+                "documentType": "CV",
+                "documentTypeId": 1107,
+                "employeeDocLibId": "ade55271-4086-46c2-95e8-8ce3735d0223",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=ade55271-4086-46c2-95e8-8ce3735d0223&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            },
+            {
+                "name": "Testing2.jpg",
+                "documentType": "Proof of bank details",
+                "documentTypeId": 1108,
+                "employeeDocLibId": "3a44f445-2ebb-43fe-88da-1774d4da0815",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=3a44f445-2ebb-43fe-88da-1774d4da0815&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            },
+            {
+                "name": "New.pdf",
+                "documentType": "Father",
+                "documentTypeId": 1110,
+                "employeeDocLibId": "f43935b7-831b-4aea-a2c5-571934d9c1cf",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=f43935b7-831b-4aea-a2c5-571934d9c1cf&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            },
+            {
+                "name": "signature.png",
+                "documentType": "Signature",
+                "documentTypeId": 1129,
+                "employeeDocLibId": "92fa1b6e-504c-4141-a381-0ddadf424e66",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=92fa1b6e-504c-4141-a381-0ddadf424e66&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            },
+            {
+                "name": "mazda-price_list_2024_02.pdf",
+                "documentType": "SARS Notice of Registration",
+                "documentTypeId": 1130,
+                "employeeDocLibId": "6e5a2217-09e4-42c5-b12b-2df96e3b8d18",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=6e5a2217-09e4-42c5-b12b-2df96e3b8d18&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            },
+            {
+                "name": "profile_selfie_1782194190190.jpg",
+                "documentType": "Selfie",
+                "documentTypeId": 1429,
+                "employeeDocLibId": "4e82bc34-391d-4dbe-afbb-d0866dac0f89",
+                "url": "https://erp-uat.sandbox.api.ezra360.com/api/v1.0/entities/imageview?id=4e82bc34-391d-4dbe-afbb-d0866dac0f89&folder=EmployeeDocLib&apikey=1lCoWQ.oMU369fr5ZcY1AvYly4PVKm3mtHanXssCcRBO46vJhS"
+            }
+        ]
+    }
+}
+See the response body
+  ✔ When I update an individual employee record        # stepDefinitions.Onboarding.iUpdateAnIndividualEmployeeRecord()
+  ✔ When I update an individual employee document      # stepDefinitions.Onboarding.iUpdateAnIndividualEmployeeDocument()
+{
+    "isSuccess": false,
+    "results": null,
+    "gotoUrl": null,
+    "clientExecuteFunctionOnSuccess": null,
+    "clientExecuteFunctionOnFailure": null,
+    "clientMessage": "An Error Occured : Invalid or missing profileStep input parameter.",
+    "outputParameters": null
+}
+See the response body
+  ✔ Then I update a wrong individual employee record   # stepDefinitions.Onboarding.iUpdateAWrongIndividualEmployeeRecord()
+  ✔ When I update a wrong individual employee document # stepDefinitions.Onboarding.iUpdateAWrongIndividualEmployeeDocument()
+Response Code: 200
+  ✔ Then I receive the record with what status         # stepDefinitions.Onboarding.iReceiveTheRecordWithWhatStatus()
+]]></system-out>
+  </testcase>
+</testsuite>
